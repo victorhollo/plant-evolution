@@ -1,0 +1,473 @@
+- generic [active] [ref=e1]:
+  - link "Siirry aikajanalle" [ref=e2] [cursor=pointer]:
+    - /url: "#timeline"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Kasvien evoluutio" [ref=e5] [cursor=pointer]:
+        - /url: "#top"
+      - navigation "Main" [ref=e8]:
+        - link "Aikajana" [ref=e9] [cursor=pointer]:
+          - /url: "#timeline"
+        - link "Sukupuu" [ref=e10] [cursor=pointer]:
+          - /url: "#tree"
+        - link "Keksinnöt" [ref=e11] [cursor=pointer]:
+          - /url: "#innovations"
+        - link "Visa" [ref=e12] [cursor=pointer]:
+          - /url: "#quiz"
+      - group "Language / Kieli" [ref=e13]:
+        - button "EN" [ref=e14] [cursor=pointer]
+        - button "FI" [pressed] [ref=e15] [cursor=pointer]
+  - main [ref=e16]:
+    - region [ref=e17]:
+      - generic [aria-hidden]:
+        - generic: PLANTAE PLANTAE PLANTAE PLANTAE
+        - generic: PLANTAE PLANTAE PLANTAE PLANTAE
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - paragraph [ref=e20]: Miljardi vuotta yhdellä vierityksellä
+          - heading "Miten kasvit valloittivat maapallon" [level=1] [ref=e21]:
+            - generic [ref=e24]: Miten
+            - generic [ref=e26]: kasvit
+            - generic [ref=e28]: valloittivat
+            - generic [ref=e30]: maapallon
+          - paragraph [ref=e31]: "Muinaisen veden viherlevistä metsiin, kukkiin ja peltoihin: seuraa kasvien historian seitsemää käännekohtaa."
+          - link "Aloita aikajana" [ref=e32] [cursor=pointer]:
+            - /url: "#timeline"
+            - generic [aria-hidden] [ref=e34]: ↓
+        - img "Kukkakasvin 3D-malli. Käännä sitä vetämällä tai nuolinäppäimillä." [ref=e35]:
+          - paragraph [aria-hidden] [ref=e37]: Käännä kasvia vetämällä
+    - generic [aria-hidden]:
+      - generic:
+        - generic:
+          - generic: Chara · Marchantia · Sphagnum · Cooksonia · Lycopodium · Equisetum · Pteridium · Pinus · Ginkgo · Cycas · Amborella · Magnolia · Nymphaea · Festuca · Triticum · Zea · Oryza ·
+          - generic: Chara · Marchantia · Sphagnum · Cooksonia · Lycopodium · Equisetum · Pteridium · Pinus · Ginkgo · Cycas · Amborella · Magnolia · Nymphaea · Festuca · Triticum · Zea · Oryza ·
+      - generic:
+        - generic:
+          - generic: ✺ cuticle ✺ stomata ✺ xylem ✺ phloem ✺ lignin ✺ roots ✺ seeds ✺ pollen ✺ flowers ✺ fruit
+          - generic: ✺ cuticle ✺ stomata ✺ xylem ✺ phloem ✺ lignin ✺ roots ✺ seeds ✺ pollen ✺ flowers ✺ fruit
+    - region [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: "01"
+          - heading "Aikajana" [level=2] [ref=e42]:
+            - generic [ref=e45]: Aikajana
+          - paragraph [ref=e46]: Vieritä alaspäin kulkeaksesi ajassa eteenpäin. Kaikki ajankohdat ovat likimääräisiä ja ilmoitettu vuosina ennen nykypäivää.
+        - generic [ref=e47]:
+          - navigation "Vaiheet" [ref=e48]:
+            - list [ref=e49]:
+              - listitem [ref=e50]:
+                - link "1 Alkuperä ~1 mrd" [ref=e51] [cursor=pointer]:
+                  - /url: "#stage-1"
+                  - generic [ref=e52]: "1"
+                  - generic [ref=e53]: Alkuperä
+                  - generic [ref=e54]: ~1 mrd
+              - listitem [ref=e55]:
+                - link "2 Maalle ~470 milj." [ref=e56] [cursor=pointer]:
+                  - /url: "#stage-2"
+                  - generic [ref=e57]: "2"
+                  - generic [ref=e58]: Maalle
+                  - generic [ref=e59]: ~470 milj.
+              - listitem [ref=e60]:
+                - link "3 Putkilokasvit ~420 milj." [ref=e61] [cursor=pointer]:
+                  - /url: "#stage-3"
+                  - generic [ref=e62]: "3"
+                  - generic [ref=e63]: Putkilokasvit
+                  - generic [ref=e64]: ~420 milj.
+              - listitem [ref=e65]:
+                - link "4 Siemenet ~370 milj." [ref=e66] [cursor=pointer]:
+                  - /url: "#stage-4"
+                  - generic [ref=e67]: "4"
+                  - generic [ref=e68]: Siemenet
+                  - generic [ref=e69]: ~370 milj.
+              - listitem [ref=e70]:
+                - link "5 Kukat ~130 milj." [ref=e71] [cursor=pointer]:
+                  - /url: "#stage-5"
+                  - generic [ref=e72]: "5"
+                  - generic [ref=e73]: Kukat
+                  - generic [ref=e74]: ~130 milj.
+              - listitem [ref=e75]:
+                - link "6 Heinät ~50–20 milj." [ref=e76] [cursor=pointer]:
+                  - /url: "#stage-6"
+                  - generic [ref=e77]: "6"
+                  - generic [ref=e78]: Heinät
+                  - generic [ref=e79]: ~50–20 milj.
+              - listitem [ref=e80]:
+                - link "7 Maanviljely ~10 000" [ref=e81] [cursor=pointer]:
+                  - /url: "#stage-7"
+                  - generic [ref=e82]: "7"
+                  - generic [ref=e83]: Maanviljely
+                  - generic [ref=e84]: ~10 000
+          - generic [ref=e85]:
+            - article [ref=e86]:
+              - generic [aria-hidden]:
+                - generic: "1"
+              - figure [aria-hidden] [ref=e87]
+              - generic [ref=e89]:
+                - paragraph [ref=e90]:
+                  - generic [ref=e91]: Vaihe 1
+                  - time [ref=e92]: noin miljardi vuotta sitten
+                - 'heading "Alkuperä: viherlevät ja ensimmäiset yhteyttäjät" [level=3] [ref=e93]'
+                - paragraph [ref=e94]: "Yhteyttäminen alkoi bakteereista: sinibakteerit valmistivat sokeria auringonvalon avulla ja vapauttivat happea miljardeja vuosia ennen kasveja. Yli miljardi vuotta sitten suurempi solu nieli sinibakteerin mutta ei hajottanut sitä. Siitä tuli viherhiukkanen, ja tämän solun jälkeläisiä ovat kaikki viherlevät ja kasvit."
+                - paragraph [ref=e95]: Viherlevät kehittyivät meressä ja makeassa vedessä. Yksi makean veden ryhmä, näkinpartaislevät, on maakasvien lähin elävä sukulainen. Kasvien varhaishistoriasta on vähän fossiileja, joten ajankohdat vaihtelevat tutkimuksesta toiseen.
+                - generic [ref=e96]:
+                  - generic [ref=e97]:
+                    - heading "Keskeiset sopeumat" [level=4] [ref=e98]
+                    - list [ref=e99]:
+                      - listitem [ref=e100]: Viherhiukkaset
+                      - listitem [ref=e101]: a- ja b-lehtivihreä
+                      - listitem [ref=e102]: Selluloosasta tehty soluseinä
+                      - listitem [ref=e103]: Tärkkelys energiavarastona
+                  - generic [ref=e104]:
+                    - heading "Esimerkkilajeja" [level=4] [ref=e105]
+                    - list [ref=e106]:
+                      - listitem [ref=e107]: Chara – näkinparta
+                      - listitem [ref=e108]: Spirogyra – rihmamainen viherlevä
+                      - listitem [ref=e109]: Volvox – yhdyskuntaviherlevä
+                      - listitem [ref=e110]: Ulva – merisalaatti
+                - paragraph [ref=e111]: "Arviot vaihtelevat: kasvien kantalinja voi olla noin 1,5 miljardia vuotta vanha, kun taas selvät viherlevien fossiilit ovat noin 750 miljoonaa vuotta vanhoja."
+            - article [ref=e112]:
+              - generic [aria-hidden]:
+                - generic: "470"
+              - figure [aria-hidden] [ref=e113]
+              - generic [ref=e143]:
+                - paragraph [ref=e144]:
+                  - generic [ref=e145]: Vaihe 2
+                  - time [ref=e146]: noin 470 miljoonaa vuotta sitten
+                - 'heading "Maalle nousu: sammalet ja maksasammalet" [level=3] [ref=e147]'
+                - paragraph [ref=e148]: Ensimmäiset maakasvit jättivät jälkeensä pieniä itiöitä ordovikikauden kivilajeihin. Ne olivat pieniä ja matalia ja elivät kosteissa paikoissa, kuten nykyiset sammalet, maksasammalet ja sarvisammalet.
+                - paragraph [ref=e149]: Maalla oli runsaasti valoa ja hiilidioksidia, mutta myös kuivumisen vaara. Varhaisille maakasveille kehittyi vahamainen kutikula, ja kivennäisaineiden saannissa ne turvautuivat sieniin. Siittiöiden piti yhä uida veden läpi munasolun luo, joten kasvit pysyivät lähellä maanpintaa.
+                - generic [ref=e150]:
+                  - generic [ref=e151]:
+                    - heading "Keskeiset sopeumat" [level=4] [ref=e152]
+                    - list [ref=e153]:
+                      - listitem [ref=e154]: Kutikula
+                      - listitem [ref=e155]: Kestäväseinäiset itiöt (sporopolleniini)
+                      - listitem [ref=e156]: Yhteistyö sienten kanssa
+                      - listitem [ref=e157]: Gametofyyttivaltainen elinkierto
+                  - generic [ref=e158]:
+                    - heading "Esimerkkilajeja" [level=4] [ref=e159]
+                    - list [ref=e160]:
+                      - listitem [ref=e161]: Marchantia polymorpha – maksasammal
+                      - listitem [ref=e162]: Sphagnum – rahkasammalet
+                      - listitem [ref=e163]: Polytrichum – karhunsammalet
+                      - listitem [ref=e164]: Anthoceros – sarvisammal
+            - article [ref=e165]:
+              - generic [aria-hidden]:
+                - generic: "420"
+              - figure [aria-hidden] [ref=e166]
+              - generic [ref=e385]:
+                - paragraph [ref=e386]:
+                  - generic [ref=e387]: Vaihe 3
+                  - time [ref=e388]: noin 420 miljoonaa vuotta sitten
+                - 'heading "Putkilokasvit: puu- ja nilaosa, saniaiset ja liekokasvit" [level=3] [ref=e389]'
+                - paragraph [ref=e390]: Siluuri- ja devonikaudella osalle kasveista kehittyi sisäinen putkisto. Puuosa (ksyleemi) kuljettaa vettä juurista ylös, ja nilaosa (floeemi) vie sokereita sinne, missä niitä tarvitaan. Vain muutaman senttimetrin korkuinen Cooksonia on yksi varhaisimmista tunnetuista putkilokasveista.
+                - paragraph [ref=e391]: Ligniini jäykisti puuosan soluseiniä, joten kasvit pystyivät kasvamaan korkeiksi. Juuret ankkuroivat ne ja ulottuivat syvemmälle veteen. Kivihiilikaudella jättimäisten liekokasvien, korteiden ja puusaniaisten metsät peittivät kosteita alankoja, ja niiden hautautuneista jäänteistä syntyi suuri osa nykyisestä kivihiilestä.
+                - generic [ref=e392]:
+                  - generic [ref=e393]:
+                    - heading "Keskeiset sopeumat" [level=4] [ref=e394]
+                    - list [ref=e395]:
+                      - listitem [ref=e396]: Puu- ja nilaosa
+                      - listitem [ref=e397]: Ligniini
+                      - listitem [ref=e398]: Ilmaraot
+                      - listitem [ref=e399]: Varsinaiset juuret
+                      - listitem [ref=e400]: Lehdet
+                  - generic [ref=e401]:
+                    - heading "Esimerkkilajeja" [level=4] [ref=e402]
+                    - list [ref=e403]:
+                      - listitem [ref=e404]: Cooksonia – varhainen fossiilikasvi
+                      - listitem [ref=e405]: Lycopodium clavatum – katinlieko
+                      - listitem [ref=e406]: Equisetum – kortteet
+                      - listitem [ref=e407]: Pteridium aquilinum – sananjalka
+                      - listitem [ref=e408]: Lepidodendron – sukupuuttoon kuollut jättiläisliekokasvi
+            - article [ref=e409]:
+              - generic [aria-hidden]:
+                - generic: "370"
+              - figure [aria-hidden] [ref=e410]
+              - generic [ref=e495]:
+                - paragraph [ref=e496]:
+                  - generic [ref=e497]: Vaihe 4
+                  - time [ref=e498]: noin 370 miljoonaa vuotta sitten
+                - 'heading "Siemenet: paljassiemeniset, havupuut ja kävypalmut" [level=3] [ref=e499]'
+                - paragraph [ref=e500]: Siemenessä on pieni alkio ja ravintovarasto suojaavan kuoren sisällä. Se voi odottaa sopivia oloja ennen itämistä. Siemenkasvit tuottavat myös siitepölyä, jonka tuuli kuljettaa munasolun luo, joten hedelmöitys ei enää vaadi vettä.
+                - paragraph [ref=e501]: Ensimmäiset siemenkasvit ilmestyivät devonikauden lopulla. Havupuut seurasivat noin 300 miljoonaa vuotta sitten, ja paljassiemeniset (siemen ei ole hedelmän sisällä), kuten havupuut, kävypalmut ja neidonhiuspuut, hallitsivat dinosaurusten aikaa. Havupuut peittävät yhä suuren osan pohjoista maailmaa, myös Suomea.
+                - generic [ref=e502]:
+                  - generic [ref=e503]:
+                    - heading "Keskeiset sopeumat" [level=4] [ref=e504]
+                    - list [ref=e505]:
+                      - listitem [ref=e506]: Siemenet
+                      - listitem [ref=e507]: Siitepöly
+                      - listitem [ref=e508]: Puuaines (paksuuskasvu)
+                      - listitem [ref=e509]: Neulaset ja paksu kutikula
+                  - generic [ref=e510]:
+                    - heading "Esimerkkilajeja" [level=4] [ref=e511]
+                    - list [ref=e512]:
+                      - listitem [ref=e513]: Pinus sylvestris – metsämänty
+                      - listitem [ref=e514]: Picea abies – metsäkuusi
+                      - listitem [ref=e515]: Ginkgo biloba – neidonhiuspuu
+                      - listitem [ref=e516]: Cycas revoluta – japaninkävypalmu
+                - paragraph [ref=e517]: Ajankohta pyöristetään usein 360 miljoonaan vuoteen. Vanhimmat siemenfossiilit ovat devonikauden lopulta, noin 370–360 miljoonan vuoden takaa.
+            - article [ref=e518]:
+              - generic [aria-hidden]:
+                - generic: "130"
+              - figure [aria-hidden] [ref=e519]
+              - generic [ref=e597]:
+                - paragraph [ref=e598]:
+                  - generic [ref=e599]: Vaihe 5
+                  - time [ref=e600]: noin 130 miljoonaa vuotta sitten
+                - 'heading "Kukat: koppisiemeniset ja pölyttäjät" [level=3] [ref=e601]'
+                - paragraph [ref=e602]: Kukkakasvit eli koppisiemeniset ilmestyvät fossiiliaineistoon varhaisella liitukaudella, noin 130 miljoonaa vuotta sitten. Niiden siemenet kehittyvät sikiäimen sisällä, ja sikiäin kypsyy hedelmäksi.
+                - paragraph [ref=e603]: Terälehdet, tuoksu ja mesi houkuttelevat hyönteisiä, jotka kuljettavat siitepölyä suoraan kukasta toiseen. Siitepölyä menee hukkaan paljon vähemmän kuin tuulipölytyksessä. Kukat ja pölyttäjät muokkasivat toisiaan miljoonien vuosien ajan (koevoluutio), ja hedelmät saivat eläimet levittämään siemeniä. Nykyään noin yhdeksän kasvilajia kymmenestä on koppisiemenisiä.
+                - generic [ref=e604]:
+                  - generic [ref=e605]:
+                    - heading "Keskeiset sopeumat" [level=4] [ref=e606]
+                    - list [ref=e607]:
+                      - listitem [ref=e608]: Kukka
+                      - listitem [ref=e609]: Sikiäin ja hedelmä
+                      - listitem [ref=e610]: Kaksoishedelmöitys
+                      - listitem [ref=e611]: Koevoluutio pölyttäjien kanssa
+                  - generic [ref=e612]:
+                    - heading "Esimerkkilajeja" [level=4] [ref=e613]
+                    - list [ref=e614]:
+                      - listitem [ref=e615]: Amborella trichopoda – vanhin säilynyt koppisiemenisten kehityslinja
+                      - listitem [ref=e616]: Nymphaea – lumpeet
+                      - listitem [ref=e617]: Magnolia – magnoliat
+                      - listitem [ref=e618]: Archaefructus – varhainen fossiilinen kukkakasvi
+                - paragraph [ref=e619]: Vanhimmat kukkafossiilit ovat noin 140–130 miljoonaa vuotta vanhoja. DNA-tutkimusten mukaan ryhmä voi olla vielä vanhempi.
+            - article [ref=e620]:
+              - generic [aria-hidden]:
+                - generic: "50"
+              - figure [aria-hidden] [ref=e621]
+              - generic [ref=e703]:
+                - paragraph [ref=e704]:
+                  - generic [ref=e705]: Vaihe 6
+                  - time [ref=e706]: noin 50–20 miljoonaa vuotta sitten
+                - heading "Heinien nousu ja nykyiset ekosysteemit" [level=3] [ref=e707]
+                - paragraph [ref=e708]: Heinät kehittyivät jo liitukauden lopulla viimeisten dinosaurusten aikaan, mutta pitkään ne olivat kasvillisuudessa vähäisiä. Kun ilmasto alkoi viiletä ja kuivua noin 50 miljoonaa vuotta sitten, heinät levittäytyivät, ja noin 30–20 miljoonaa vuotta sitten avoimet ruohoalueet peittivät laajoja alueita useilla mantereilla.
+                - paragraph [ref=e709]: Heinät kasvavat lehden tyvestä, joten laidunnus tai tuli tappaa ne harvoin. Monille kehittyi myöhemmin C4-yhteyttäminen, joka toimii hyvin kuumuudessa ja kuivuudessa. Laiduntaville nisäkkäille, kuten hevosille, kehittyi korkeat hampaat ja pitkät jalat avoimille tasangoille. Tämäkin on koevoluutiota.
+                - generic [ref=e710]:
+                  - generic [ref=e711]:
+                    - heading "Keskeiset sopeumat" [level=4] [ref=e712]
+                    - list [ref=e713]:
+                      - listitem [ref=e714]: Kasvu lehden tyvestä
+                      - listitem [ref=e715]: Piidioksidia lehdissä
+                      - listitem [ref=e716]: C4-yhteyttäminen
+                      - listitem [ref=e717]: Tuulipölytys
+                  - generic [ref=e718]:
+                    - heading "Esimerkkilajeja" [level=4] [ref=e719]
+                    - list [ref=e720]:
+                      - listitem [ref=e721]: Festuca – nadat
+                      - listitem [ref=e722]: Phragmites australis – järviruoko
+                      - listitem [ref=e723]: Bambusa – bambu
+                      - listitem [ref=e724]: Andropogon gerardii – preeriaheinä
+                - paragraph [ref=e725]: Vanhimmat heinäfossiilit ovat liitukauden lopulta, yli 66 miljoonan vuoden takaa. Noin 50 miljoonaa vuotta sitten alkoi viileneminen, joka auttoi heiniä leviämään.
+            - article [ref=e726]:
+              - generic [aria-hidden]:
+                - generic: 10 000
+              - figure [aria-hidden] [ref=e727]
+              - generic [ref=e1019]:
+                - paragraph [ref=e1020]:
+                  - generic [ref=e1021]: Vaihe 7
+                  - time [ref=e1022]: noin 10 000 vuotta sitten
+                - 'heading "Ihminen ja maanviljely: viljelykasvien synty" [level=3] [ref=e1023]'
+                - paragraph [ref=e1024]: Viimeisen jääkauden päättyessä ihmiset alkoivat useilla alueilla kasvattaa kasveja sen sijaan, että olisivat vain keränneet niitä. Lähi-idän Hedelmällisen puolikuun alueella vehnä, ohra, herne ja linssi olivat ensimmäisiä viljelykasveja noin 10 000 vuotta sitten. Riisi, maissi, peruna ja monet muut otettiin viljelyyn toisistaan riippumatta muualla.
+                - paragraph [ref=e1025]: "Viljelijät kylvivät parhaiden kasvien siemeniä, ja sukupolvien mittaan kasvit muuttuivat: jyvät suurenivat, tähkät lakkasivat varisemasta ja kitkeryys väheni. Tämä on keinotekoista valintaa, ihmisen ohjaamaa evoluutiota. Maanviljely mahdollisti pysyvät kylät ja kaupungit, ja se on muuttanut maisemia kaikkialla maapallolla."
+                - generic [ref=e1026]:
+                  - generic [ref=e1027]:
+                    - heading "Keskeiset sopeumat" [level=4] [ref=e1028]
+                    - list [ref=e1029]:
+                      - listitem [ref=e1030]: Keinotekoinen valinta
+                      - listitem [ref=e1031]: Varisemattomat tähkät
+                      - listitem [ref=e1032]: Suuremmat siemenet ja hedelmät
+                      - listitem [ref=e1033]: Polyploidia (esim. leipävehnä)
+                  - generic [ref=e1034]:
+                    - heading "Esimerkkilajeja" [level=4] [ref=e1035]
+                    - list [ref=e1036]:
+                      - listitem [ref=e1037]: Triticum aestivum – leipävehnä
+                      - listitem [ref=e1038]: Hordeum vulgare – ohra
+                      - listitem [ref=e1039]: Oryza sativa – riisi
+                      - listitem [ref=e1040]: Zea mays – maissi, jalostettu teosintesta
+                      - listitem [ref=e1041]: Solanum tuberosum – peruna
+    - region [ref=e1042]:
+      - generic [ref=e1043]:
+        - generic [ref=e1044]:
+          - paragraph [ref=e1045]: "02"
+          - heading "Kasvien sukupuu" [level=2] [ref=e1046]:
+            - generic [ref=e1049]: Kasvien
+            - generic [ref=e1051]: sukupuu
+          - paragraph [ref=e1052]: Jokainen uusi ryhmä haarautui vanhemmasta. Aika kulkee ylhäältä alas. Valitse ryhmä siirtyäksesi sen vaiheeseen.
+          - paragraph [ref=e1053]: Kaavio on yksinkertaistettu. Todellisessa kasvien evoluutiossa on paljon enemmän haaroja ja sukupuuttoon kuolleita ryhmiä.
+        - group "Kasvien sukupuu" [ref=e1054]:
+          - link "Viherlevät, siirry vaiheeseen 1":
+            - /url: "#stage-1"
+            - generic: Viherlevät
+          - link "Sammalet, siirry vaiheeseen 2":
+            - /url: "#stage-2"
+            - generic: Sammalet
+          - link "Putkilokasvit, siirry vaiheeseen 3":
+            - /url: "#stage-3"
+            - generic: Putkilokasvit
+          - link "Saniaiset ja liekokasvit, siirry vaiheeseen 3":
+            - /url: "#stage-3"
+            - generic: Saniaiset jaliekokasvit
+          - link "Siemenkasvit, siirry vaiheeseen 4":
+            - /url: "#stage-4"
+            - generic: Siemenkasvit
+          - link "Paljassiemeniset, siirry vaiheeseen 4":
+            - /url: "#stage-4"
+            - generic: Paljas-siemeniset
+          - link "Koppisiemeniset, siirry vaiheeseen 5":
+            - /url: "#stage-5"
+            - generic: Koppisiemeniset
+          - link "Heinät, siirry vaiheeseen 6":
+            - /url: "#stage-6"
+            - generic: Heinät
+          - link "Viljelykasvit, siirry vaiheeseen 7":
+            - /url: "#stage-7"
+            - generic: Viljelykasvit
+    - region [ref=e1058]:
+      - generic [ref=e1059]:
+        - generic [ref=e1060]:
+          - paragraph [ref=e1061]: "03"
+          - heading "Tärkeät keksinnöt" [level=2] [ref=e1062]:
+            - generic [ref=e1065]: Tärkeät
+            - generic [ref=e1067]: keksinnöt
+          - paragraph [ref=e1068]: Kahdeksan keksintöä, joiden avulla kasvit pystyivät elämään uusissa paikoissa. Käännä kortti valitsemalla se.
+        - generic [ref=e1069]:
+          - button "Kutikula Vedenpitävä vahakerros Käännä ↻" [ref=e1070] [cursor=pointer]:
+            - generic [ref=e1071]:
+              - generic [ref=e1072]:
+                - generic [ref=e1076]: Kutikula
+                - generic [ref=e1077]: Vedenpitävä vahakerros
+                - generic [ref=e1078]: Käännä ↻
+              - generic [aria-hidden] [ref=e1079]:
+                - generic [ref=e1080]: Kutikula
+                - generic [ref=e1081]: "Lehtiä ja varsia peittävä ohut vahakerros hidastaa veden haihtumista. Ilman sitä varhaiset maakasvit olisivat kuivuneet nopeasti. Haittapuoli: se estää myös kaasujen vaihtoa."
+                - generic [ref=e1082]: Käännä takaisin ↻
+          - button "Ilmaraot Säädettävät huokoset Käännä ↻" [ref=e1083] [cursor=pointer]:
+            - generic [ref=e1084]:
+              - generic [ref=e1085]:
+                - generic [ref=e1090]: Ilmaraot
+                - generic [ref=e1091]: Säädettävät huokoset
+                - generic [ref=e1092]: Käännä ↻
+              - generic [aria-hidden] [ref=e1093]:
+                - generic [ref=e1094]: Ilmaraot
+                - generic [ref=e1095]: Pieniä aukkoja, joita kaksi sulkusolua avaa ja sulkee. Auki ne päästävät hiilidioksidia sisään, kiinni ne säästävät vettä. Ne ratkaisevat kutikulan aiheuttaman ongelman.
+                - generic [ref=e1096]: Käännä takaisin ↻
+          - button "Juuret Ankkuri ja pumppu Käännä ↻" [ref=e1097] [cursor=pointer]:
+            - generic [ref=e1098]:
+              - generic [ref=e1099]:
+                - generic [ref=e1103]: Juuret
+                - generic [ref=e1104]: Ankkuri ja pumppu
+                - generic [ref=e1105]: Käännä ↻
+              - generic [aria-hidden] [ref=e1106]:
+                - generic [ref=e1107]: Juuret
+                - generic [ref=e1108]: "Juuret kiinnittävät kasvin maahan ja ottavat vettä ja kivennäisiä. Useimmat kasvit elävät myös yhteistyössä sienten kanssa (sienijuuri): sieni antaa kivennäisiä ja saa sokeria."
+                - generic [ref=e1109]: Käännä takaisin ↻
+          - button "Puu- ja nilaosa Kasvin putkisto Käännä ↻" [ref=e1110] [cursor=pointer]:
+            - generic [ref=e1111]:
+              - generic [ref=e1112]:
+                - generic [ref=e1116]: Puu- ja nilaosa
+                - generic [ref=e1117]: Kasvin putkisto
+                - generic [ref=e1118]: Käännä ↻
+              - generic [aria-hidden] [ref=e1119]:
+                - generic [ref=e1120]: Puu- ja nilaosa
+                - generic [ref=e1121]: Puuosa kuljettaa vettä ja kivennäisiä juurista ylös, nilaosa sokereita lehdistä muualle kasviin. Siksi putkilokasvit voivat kasvaa paljon sammalia suuremmiksi.
+                - generic [ref=e1122]: Käännä takaisin ↻
+          - button "Ligniini Lujuutta kasvaa korkealle Käännä ↻" [ref=e1123] [cursor=pointer]:
+            - generic [ref=e1124]:
+              - generic [ref=e1125]:
+                - generic [ref=e1129]: Ligniini
+                - generic [ref=e1130]: Lujuutta kasvaa korkealle
+                - generic [ref=e1131]: Käännä ↻
+              - generic [aria-hidden] [ref=e1132]:
+                - generic [ref=e1133]: Ligniini
+                - generic [ref=e1134]: Sitkeä yhdiste, joka jäykistää soluseiniä. Ligniini estää puuosan putkia painumasta kasaan ja mahdollistaa kymmenien metrien korkuiset puut. Puu on pääosin selluloosaa ja ligniiniä.
+                - generic [ref=e1135]: Käännä takaisin ↻
+          - button "Siemen Eväspaketti alkiolle Käännä ↻" [ref=e1136] [cursor=pointer]:
+            - generic [ref=e1137]:
+              - generic [ref=e1138]:
+                - generic [ref=e1142]: Siemen
+                - generic [ref=e1143]: Eväspaketti alkiolle
+                - generic [ref=e1144]: Käännä ↻
+              - generic [aria-hidden] [ref=e1145]:
+                - generic [ref=e1146]: Siemen
+                - generic [ref=e1147]: Siemenessä on alkio, ravintovarasto ja suojaava kuori. Se voi levätä vuosia ja itää, kun olot ovat sopivat.
+                - generic [ref=e1148]: Käännä takaisin ↻
+          - button "Siitepöly Hedelmöitys ilman vettä Käännä ↻" [ref=e1149] [cursor=pointer]:
+            - generic [ref=e1150]:
+              - generic [ref=e1151]:
+                - generic [ref=e1158]: Siitepöly
+                - generic [ref=e1159]: Hedelmöitys ilman vettä
+                - generic [ref=e1160]: Käännä ↻
+              - generic [aria-hidden] [ref=e1161]:
+                - generic [ref=e1162]: Siitepöly
+                - generic [ref=e1163]: Siitepölyhiukkaset kuljettavat siittiösolut tuulen tai eläinten avulla, joten hedelmöitys ei enää vaadi vettä. Kasvit pystyivät lisääntymään myös kuivilla paikoilla.
+                - generic [ref=e1164]: Käännä takaisin ↻
+          - button "Kukka ja hedelmä Mainos ja kuljetus Käännä ↻" [ref=e1165] [cursor=pointer]:
+            - generic [ref=e1166]:
+              - generic [ref=e1167]:
+                - generic [ref=e1175]: Kukka ja hedelmä
+                - generic [ref=e1176]: Mainos ja kuljetus
+                - generic [ref=e1177]: Käännä ↻
+              - generic [aria-hidden] [ref=e1178]:
+                - generic [ref=e1179]: Kukka ja hedelmä
+                - generic [ref=e1180]: Kukka houkuttelee pölyttäjiä värillä, tuoksulla ja medellä. Hedelmöityksen jälkeen sikiäin kehittyy hedelmäksi, jonka eläimet syövät ja levittävät siemenet kauas.
+                - generic [ref=e1181]: Käännä takaisin ↻
+    - region [ref=e1182]:
+      - generic [ref=e1183]:
+        - generic [ref=e1184]:
+          - paragraph [ref=e1185]: "04"
+          - heading "Testaa itsesi" [level=2] [ref=e1186]:
+            - generic [ref=e1189]: Testaa
+            - generic [ref=e1191]: itsesi
+          - paragraph [ref=e1192]: Viisi kysymystä. Saat palautteen heti.
+        - generic [ref=e1193]:
+          - generic [ref=e1194]: Kysymys 1 / 5
+          - heading "Mikä sopeuma auttoi kasveja ensimmäisenä välttämään kuivumisen maalla?" [level=3] [ref=e1197]
+          - list [ref=e1198]:
+            - listitem [ref=e1199]:
+              - button "Kukat" [ref=e1200] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e1201]: A
+                - text: Kukat
+            - listitem [ref=e1202]:
+              - button "Vahamainen kutikula" [ref=e1203] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e1204]: B
+                - text: Vahamainen kutikula
+            - listitem [ref=e1205]:
+              - button "Siemenet" [ref=e1206] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e1207]: C
+                - text: Siemenet
+            - listitem [ref=e1208]:
+              - button "Heinänlehdet" [ref=e1209] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e1210]: D
+                - text: Heinänlehdet
+    - region [ref=e1211]:
+      - generic [ref=e1212]:
+        - paragraph [ref=e1213]: "05"
+        - heading "Lähteet ja lisälukemista" [level=2] [ref=e1214]
+        - paragraph [ref=e1215]: Ajankohdat perustuvat näihin lähteisiin, ja ne on pyöristetty. Tutkijat tarkentavat niitä jatkuvasti uusien fossiilien ja DNA-tutkimusten myötä.
+        - list [ref=e1216]:
+          - listitem [ref=e1217]:
+            - link "Evolutionary history of plants (Wikipedia)" [ref=e1218] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/Evolutionary_history_of_plants
+          - listitem [ref=e1219]:
+            - link "Timeline of plant evolution (Wikipedia)" [ref=e1220] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/Timeline_of_plant_evolution
+          - listitem [ref=e1221]:
+            - link "Fossil record of seed plants (UC Berkeley, UCMP)" [ref=e1222] [cursor=pointer]:
+              - /url: https://ucmp.berkeley.edu/seedplants/seedplantsfr.html
+          - listitem [ref=e1223]:
+            - link "Early land plants, Cooksonia (UC Berkeley, UCMP)" [ref=e1224] [cursor=pointer]:
+              - /url: https://ucmp.berkeley.edu/IB181/VPL/Elp/Elp1.html
+          - listitem [ref=e1225]:
+            - link "Fossil history of flowering plants (Wikipedia)" [ref=e1226] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/Fossil_history_of_flowering_plants
+          - listitem [ref=e1227]:
+            - link "Origin and spread of grasses (Nature Communications)" [ref=e1228] [cursor=pointer]:
+              - /url: https://www.nature.com/articles/ncomms2508
+          - listitem [ref=e1229]:
+            - link "Neolithic Revolution and early crops (Wikipedia)" [ref=e1230] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/Neolithic_Revolution
+  - contentinfo [ref=e1231]:
+    - generic [ref=e1232]: Tehty lukion biologian opetukseen. Ajankohdat ovat likimääräisiä.
+    - paragraph [ref=e1233]: Aikakausien kuvitus on tehty tekoälyllä (Google ImageFX).

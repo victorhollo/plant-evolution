@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plant Evolution: from algae to crops</title>
+<meta name="description" content="A scroll-through journey of how plants evolved, from green algae to modern crops.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 28C4 12 14 4 28 4c0 14-8 24-24 24z' fill='%23c6ff3d'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,600..900,100,1;1,9..144,600..900,100,1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="t0">
+<a class="skip" href="#timeline" data-i18n="skip">Skip to timeline</a>
+<div class="progress" aria-hidden="true"><span></span></div>
+<div class="cursor" aria-hidden="true"></div>
+
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"></span><span data-i18n="brand">Plant Evolution</span></a>
+    <nav aria-label="Main">
+      <a href="#timeline" data-i18n="nav_timeline">Timeline</a>
+      <a href="#tree" data-i18n="nav_tree">Tree of life</a>
+      <a href="#innovations" data-i18n="nav_innov">Innovations</a>
+      <a href="#quiz" data-i18n="nav_quiz">Quiz</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language / Kieli">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="fi" aria-pressed="false">FI</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" data-theme="t0" aria-labelledby="hero-h">
+    <div class="blobs" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
+    <div class="hero-bg-word" aria-hidden="true"><span>PLANTAE PLANTAE PLANTAE PLANTAE&nbsp;</span><span>PLANTAE PLANTAE PLANTAE PLANTAE&nbsp;</span></div>
+    <div class="hero-in">
+      <div class="hero-text">
+        <p class="eyebrow" data-i18n="hero_eyebrow">One billion years in one scroll</p>
+        <h1 id="hero-h" class="split" data-i18n="hero_h">How plants conquered the Earth</h1>
+        <p class="lede" data-i18n="hero_lede">From single green cells in ancient water to forests, flowers and farms: follow seven turning points in the story of plant life.</p>
+        <a class="btn magnetic" href="#timeline"><span data-i18n="hero_cta">Start the timeline</span> <span aria-hidden="true">↓</span></a>
+      </div>
+      <div id="plant3d" class="plant3d" tabindex="0" role="img" data-i18n-aria="plant_label" aria-label="3D model of a flowering plant. Drag or use arrow keys to turn it.">
+        <svg class="grow" viewBox="0 0 200 300" aria-hidden="true" focusable="false">
+          <path class="stem" pathLength="1" d="M100 292 C100 238 86 208 98 156 C108 114 96 80 100 44" />
+          <path class="lf" d="M98 200 C70 196 58 176 64 160 C86 164 100 182 98 200Z" />
+          <path class="lf" d="M100 150 C128 146 140 126 134 110 C112 114 98 132 100 150Z" />
+          <circle cx="100" cy="36" r="14" class="petal" />
+        </svg>
+        <p class="plant3d-hint" aria-hidden="true" data-i18n="plant_hint">Drag to turn the plant</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="ribbons" aria-hidden="true">
+    <div class="ribbon r1"><div class="ribbon-track"><span>Chara · Marchantia · Sphagnum · Cooksonia · Lycopodium · Equisetum · Pteridium · Pinus · Ginkgo · Cycas · Amborella · Magnolia · Nymphaea · Festuca · Triticum · Zea · Oryza · </span><span>Chara · Marchantia · Sphagnum · Cooksonia · Lycopodium · Equisetum · Pteridium · Pinus · Ginkgo · Cycas · Amborella · Magnolia · Nymphaea · Festuca · Triticum · Zea · Oryza · </span></div></div>
+    <div class="ribbon r2"><div class="ribbon-track"><span>✺ cuticle ✺ stomata ✺ xylem ✺ phloem ✺ lignin ✺ roots ✺ seeds ✺ pollen ✺ flowers ✺ fruit </span><span>✺ cuticle ✺ stomata ✺ xylem ✺ phloem ✺ lignin ✺ roots ✺ seeds ✺ pollen ✺ flowers ✺ fruit </span></div></div>
+  </div>
+
+  <section id="timeline" class="section timeline-section" aria-labelledby="tl-h">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">01</p>
+        <h2 id="tl-h" class="split" data-i18n="tl_h">The timeline</h2>
+        <p class="intro" data-i18n="tl_intro">Scroll to travel forward in time. All dates are approximate and given in years before the present.</p>
+      </div>
+      <div class="timeline">
+        <nav class="rail" aria-label="Stages"><ol id="rail"></ol></nav>
+        <div id="stages" class="stages"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tree" class="section" data-theme="t8" aria-labelledby="tree-h">
+    <div class="wrap tree-wrap">
+      <div class="tree-text">
+        <p class="kicker">02</p>
+        <h2 id="tree-h" class="split" data-i18n="tree_h">The tree of plant life</h2>
+        <p class="intro" data-i18n="tree_intro">Each new group branched off from an older one. Time runs from top to bottom. Select a group to jump to its stage.</p>
+        <p class="note" data-i18n="tree_note">This is a simplified diagram. Real plant evolution has many more branches and extinct groups.</p>
+      </div>
+      <svg id="tree-svg" viewBox="0 0 370 700" role="group" aria-labelledby="tree-h"></svg>
+    </div>
+  </section>
+
+  <section id="innovations" class="section" data-theme="t9" aria-labelledby="inn-h">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">03</p>
+        <h2 id="inn-h" class="split" data-i18n="inn_h">Key innovations</h2>
+        <p class="intro" data-i18n="inn_intro">Eight inventions that let plants live in new places. Select a card to flip it.</p>
+      </div>
+      <div id="cards" class="cards"></div>
+    </div>
+  </section>
+
+  <section id="quiz" class="section" data-theme="t10" aria-labelledby="quiz-h">
+    <div class="wrap narrow">
+      <div class="section-head">
+        <p class="kicker">04</p>
+        <h2 id="quiz-h" class="split" data-i18n="quiz_h">Test yourself</h2>
+        <p class="intro" data-i18n="quiz_intro">Five questions. You get feedback straight away.</p>
+      </div>
+      <div id="quiz-box" class="quiz"></div>
+    </div>
+  </section>
+
+  <section id="sources" class="section" data-theme="t0" aria-labelledby="src-h">
+    <div class="wrap narrow">
+      <p class="kicker">05</p>
+      <h2 id="src-h" data-i18n="src_h">Sources and further reading</h2>
+      <p class="intro" data-i18n="src_intro">Dates come from these sources and are rounded. Scientists keep refining them as new fossils and DNA studies appear.</p>
+      <ul class="sources">
+        <li><a href="https://en.wikipedia.org/wiki/Evolutionary_history_of_plants" rel="noopener">Evolutionary history of plants (Wikipedia)</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Timeline_of_plant_evolution" rel="noopener">Timeline of plant evolution (Wikipedia)</a></li>
+        <li><a href="https://ucmp.berkeley.edu/seedplants/seedplantsfr.html" rel="noopener">Fossil record of seed plants (UC Berkeley, UCMP)</a></li>
+        <li><a href="https://ucmp.berkeley.edu/IB181/VPL/Elp/Elp1.html" rel="noopener">Early land plants, Cooksonia (UC Berkeley, UCMP)</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Fossil_history_of_flowering_plants" rel="noopener">Fossil history of flowering plants (Wikipedia)</a></li>
+        <li><a href="https://www.nature.com/articles/ncomms2508" rel="noopener">Origin and spread of grasses (Nature Communications)</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Neolithic_Revolution" rel="noopener">Neolithic Revolution and early crops (Wikipedia)</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="foot"><div class="wrap" data-i18n="foot">Made for upper secondary biology. Dates are approximate.</div><p class="wrap ai-credit" hidden data-i18n="foot_ai">Era illustrations made with AI (Google ImageFX). They are artistic impressions, not scientific reconstructions.</p></footer>
+
+<noscript><p class="nojs">This page needs JavaScript to show its content.</p></noscript>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="plant3d.js"></script>
+</body>
+</html>
