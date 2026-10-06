@@ -450,7 +450,7 @@ function loadArt() {
     const next = () => { if (k < ART_EXT.length) img.src = `images/era${img.dataset.n}.${ART_EXT[k++]}`; };
     img.onerror = next;
     img.onload = () => {
-      img.parentElement.classList.add('has-img');
+      img.closest('.art-blob').classList.add('has-img');
       const c = document.querySelector('.ai-credit'); if (c) c.hidden = false;
     };
     next();
@@ -471,7 +471,7 @@ function renderTimeline() {
     return `<article class="stage reveal" id="stage-${n}" data-stage="${n}" data-theme="t${n}" aria-labelledby="stage-h-${n}">
       <div class="particles" aria-hidden="true">${particlesHtml(PARTICLES[i])}</div>
       <div class="stage-big" aria-hidden="true"><span class="big-num">${num}</span><span class="big-unit">${t(BIG[i][1])}</span></div>
-      <figure class="stage-art" aria-hidden="true"><div class="art-blob">${sceneSvg(n)}<img class="art-img" alt="" decoding="async" data-n="${n}"></div></figure>
+      <figure class="stage-art" aria-hidden="true"><div class="art-blob"><div class="art-clip">${sceneSvg(n)}<img class="art-img" alt="" decoding="async" data-n="${n}"></div></div></figure>
       <div class="stage-body">
         <p class="stage-when"><span class="stage-num">${t('stage')} ${n}</span> <time>${d.when}</time></p>
         <h3 id="stage-h-${n}">${d.name}</h3>

@@ -247,6 +247,12 @@ img { max-width: 100%; }
 
 /* AI illustration: slow drift and zoom, plus depth that follows the scroll (--p) */
 .art-blob { position: relative; }
+/* Inner clip layer: iOS Safari ignores border-radius + overflow on animated children unless masked.
+   The mask lives here, not on .art-blob, so the offset shadow stays visible. */
+.art-clip {
+  position: absolute; inset: 0; overflow: hidden; border-radius: inherit;
+  isolation: isolate; -webkit-mask-image: -webkit-radial-gradient(white, black); mask-image: radial-gradient(white, black);
+}
 .art-img { display: none; }
 .art-blob.has-img svg { display: none; }
 .art-blob.has-img .art-img {
@@ -254,7 +260,7 @@ img { max-width: 100%; }
   translate: 0 calc(clamp(-1, var(--p, 0), 1) * -4%); /* stays inside the 8% spare edge */
   animation: kenburns 22s ease-in-out infinite alternate;
 }
-.art-blob.has-img::after {
+.art-blob.has-img .art-clip::after {
   content: ""; position: absolute; inset: 0; pointer-events: none; mix-blend-mode: soft-light;
   background: linear-gradient(115deg, transparent 30%, rgba(255,255,255,.55) 50%, transparent 70%) 0 0 / 300% 100%;
   animation: sheen 9s ease-in-out infinite;
@@ -431,7 +437,7 @@ img { max-width: 100%; }
   .split .w { clip-path: none; }
   .stage-big, .stage-art { transform: none; }
   .art-blob { clip-path: none; transition: none; }
-  .art-blob.has-img .art-img, .art-blob.has-img::after { animation: none; translate: none; }
+  .art-blob.has-img .art-img, .art-blob.has-img .art-clip::after { animation: none; translate: none; }
   .a-grow { transform: none; transition: none; }
   .stage .stage-when, .stage h3, .stage-body > p, .stage-facts, .stage-note, .stage .chips li { transform: none; transition: opacity .4s ease; }
   .card { translate: none; rotate: none; transform: none; transition: opacity .4s ease; }
